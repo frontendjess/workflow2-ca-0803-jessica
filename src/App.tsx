@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <p>Question 3</p>
-      
+      {newProduct.id} {newProduct.code} {newProduct.title}
   
     </div>
   );
