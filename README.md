@@ -1,6 +1,6 @@
 # Create react app with template typescript
 
-# Jest, Babel and Lodash
+# Installed Jest, Babel and Lodash
 
 For Feu2 workflow 2 CA:
 
@@ -10,7 +10,7 @@ Question 2. Converted the function in `scrips/helpers/objectHelpers.ts` to TypeS
 
 Question 3. Converted `scripts/index.ts` to TypeScript. Used the interface `ProductValues` from `objectHelpers.ts` as the type of the `newProduct` variable.
 
-Question 4. Wrote passing tests for all functions found in `scripts/helpers/stringHelpers.ts` and `scrips/helpers/objectHelpers.ts`.
+Question 4. Wrote passing tests for all functions found in `scripts/helpers/stringHelpers.ts` and `scrips/helpers/objectHelpers.ts`. The test files are `scripts/helpers/stringHelpers.test.ts`and `scripts/helpers/objectHelpers.test.ts`.
 
 Question 5. Used the Rick and Morty GraphQl Api `https://rickandmortyapi.com/graphql`
 
