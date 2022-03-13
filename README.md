@@ -8,7 +8,7 @@ Question 1. Converted all functions in `scripts/helpers/stringHelpers.ts`
 
 Question 2. Converted the function in `scrips/helpers/objectHelpers.ts` to TypeScript
 
-Question 3. Converted `scripts/index.ts` to TypeScript. Used the interface `ProductValues` from `objectHelpers.ts` as the type of the `newProduct` variable.
+Question 3. Converted `scripts/index.ts` to TypeScript. Used the interface `ProductValues` imported from `objectHelpers.ts` as the type of the `newProduct` variable.
 
 Question 4. Wrote passing tests for all functions found in `scripts/helpers/stringHelpers.ts` and `scrips/helpers/objectHelpers.ts`. The test files are `scripts/helpers/stringHelpers.test.ts`and `scripts/helpers/objectHelpers.test.ts`.
 
