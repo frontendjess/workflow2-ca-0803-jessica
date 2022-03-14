@@ -27,7 +27,7 @@ function CharactersList() {
 	const formatData = data.characters.results.map((character) => {
 		return (
 			<div key={character.id}>
-				<img src={character.image} />
+				<img alt={character.name} src={character.image} />
 				<h2>{character.name}</h2>
 				<h4>{character.species}</h4>
 				<h4>{character.gender}</h4>
