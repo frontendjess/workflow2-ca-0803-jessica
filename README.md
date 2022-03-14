@@ -2,6 +2,8 @@
 
 # Installed Jest, Babel and Lodash
 
+Live website https://workflow-ca-reactgraphql.netlify.app/
+
 For Feu2 workflow 2 CA:
 
 Question 1. Converted all functions in `scripts/helpers/stringHelpers.ts`
