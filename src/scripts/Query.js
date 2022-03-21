@@ -23,8 +23,12 @@ function CharactersList() {
 	if (loading) return <div>Loading...</div>;
 
 	if (error) return <div>Oops, something is wrong</div>;
+	
+// 	NOTE: You need to order data before placing it in JSX
+	const orderedData = orderBy(data.characters.results, ['key'], ['desc']);
 
-	const formatData = data.characters.results.map((character) => {
+// 	NOTE: This is a function that needs to be called
+	const formatData = orderedData.characters.results.map((character) => {
 		return (
 			<div key={character.id}>
 				<img alt={character.name} src={character.image} />
@@ -42,7 +46,8 @@ function CharactersList() {
 		orderedData
 	);
 
-	return <div className='Results'>{orderedData}</div>;
+// 	NOTE: You need to call the function
+	return <div className='Results'>{formatData()}</div>;
 }
 
 export default CharactersList;
